@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kỹ thuật Black-Hat - SEO Lab Pro</title>
+    <title>Topic 13: Kỹ Thuật Black-Hat & Đánh Giá Đạo Đức SEO</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = { darkMode: 'class', theme: { extend: { colors: { darkBg: '#090d16', cardBg: '#111827', borderCol: '#1f293d' } } } }
@@ -11,7 +11,7 @@
 </head>
 <body class="bg-darkBg text-slate-100 min-h-screen font-sans selection:bg-red-500 selection:text-white">
     <nav class="bg-cardBg border-b border-borderCol px-6 py-4 flex justify-between items-center sticky top-0 z-50">
-        <h1 class="font-bold text-indigo-400 tracking-wider">SEO LAB PRO</h1>
+        <h1 class="font-bold text-indigo-400 tracking-wider">SEO LAB PRO - TOPIC 13</h1>
         <div class="space-x-2 text-sm bg-darkBg p-1.5 rounded-lg border border-borderCol hidden md:flex">
             <a href="index.html" class="px-4 py-2 rounded-md text-slate-400 hover:text-white transition-all">Tổng quan</a>
             <a href="blackhat.html" class="px-4 py-2 rounded-md bg-red-600/20 text-red-400 font-semibold border border-red-500/30">Kỹ thuật Black-Hat</a>
@@ -21,76 +21,95 @@
     </nav>
 
     <main class="max-w-5xl mx-auto px-6 py-10 space-y-8">
-        <div class="border-b border-borderCol pb-4">
-            <span class="px-2.5 py-1 rounded text-xs font-semibold bg-red-500/10 text-red-400 border border-red-500/20 uppercase">Thực Nghiệm Chi Tiết</span>
-            <h2 class="text-3xl font-bold text-white mt-2">Mô Phỏng Các Kỹ Thuật Black-Hat SEO</h2>
-            <p class="text-slate-400 text-sm mt-1">Khảo sát chuyên sâu hành vi gian lận cấu trúc, nhồi nhét từ khóa, qua mặt trình thu thập thông tin và thao túng liên kết.</p>
+        <!-- Header bám sát yêu cầu đề bài -->
+        <div class="border-b border-borderCol pb-4 space-y-2">
+            <span class="px-2.5 py-1 rounded text-xs font-semibold bg-red-500/10 text-red-400 border border-red-500/20 uppercase tracking-wider">Báo cáo học thuật - Topic 13</span>
+            <h2 class="text-3xl font-bold text-white">Phân Tích Kỹ Thuật Black-Hat & Vi Phạm Đạo Đức SEO</h2>
+            <p class="text-slate-400 text-sm">Đáp ứng yêu cầu: Phân loại kỹ thuật, đánh giá hình phạt thuật toán (Panda/Penguin/Spam Update) và đề xuất nguyên tắc White-Hat thay thế.</p>
         </div>
 
-        <!-- Module 1: Hidden Text & Keyword Stuffing -->
+        <!-- Module 1: Keyword Stuffing -->
         <div class="bg-cardBg border border-borderCol rounded-2xl p-6 space-y-4">
             <div class="flex justify-between items-center flex-wrap gap-3">
                 <div>
-                    <h3 class="text-base font-bold text-slate-200">1. Hidden Text & Keyword Stuffing (Nhồi nhét & Chữ ẩn)</h3>
-                    <p class="text-xs text-slate-400 mt-0.5">Thủ thuật chèn hàng loạt từ khóa mục tiêu vào HTML nhưng ngụy trang bằng kích thước cực nhỏ hoặc đồng màu nền.</p>
+                    <span class="text-xs font-bold text-red-400 bg-red-500/10 px-2.5 py-1 rounded">Kỹ thuật 01</span>
+                    <h3 class="text-lg font-bold text-slate-200 mt-1.5">Keyword Stuffing & Hidden Text (Nhồi nhét từ khóa & Chữ ẩn)</h3>
+                    <p class="text-xs text-slate-400 mt-0.5">Hành vi lặp lại từ khóa vô tội vạ hoặc ngụy trang chữ cùng màu nền/kích thước siêu nhỏ nhằm thao túng mật độ từ khóa.</p>
                 </div>
                 <button onclick="toggleHiddenText()" class="bg-red-600 hover:bg-red-700 text-white px-3.5 py-2 rounded-lg text-xs font-semibold transition-all cursor-pointer">
-                    Bật/Tắt Lớp Chữ Ẩn
+                    Bật/Tắt Mô Phỏng Chữ Ẩn
                 </button>
             </div>
 
             <div class="p-4 bg-darkBg border border-borderCol rounded-xl space-y-3">
-                <p class="text-slate-300 text-xs">🌐 <strong class="text-slate-100">Giao diện thực thấy:</strong> Chào mừng bạn đến với cửa hàng điện thoại uy tín, chính hãng, giá tốt.</p>
+                <p class="text-slate-300 text-xs">🌐 <strong class="text-slate-100">Giao diện thực tế người dùng thấy:</strong> Chào mừng bạn đến với hệ thống cửa hàng điện thoại chính hãng.</p>
                 <div id="hidden-box" style="color: #111827; background-color: #111827; font-size: 1px;" class="p-2 rounded font-mono text-xs">
                     mua điện thoại giá rẻ, cửa hàng điện thoại xách tay, iphone cũ giá rẻ, samsung chính hãng trả góp 0%, shop điện thoại uy tín, mua điện thoại trả góp online tại TPHCM...
                 </div>
             </div>
-            <div class="text-[11px] text-slate-400 bg-red-500/5 border border-red-500/20 p-3 rounded-lg space-y-1">
-                <strong class="text-red-400 font-semibold">Phân tích học thuật:</strong> Thuật toán Google SpamBrain quét DOM website sẽ phát hiện sự bất thường giữa lượng từ khóa lặp vô nghĩa và ngữ cảnh hiển thị thực tế, dẫn đến hình phạt tự động.
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+                <div class="bg-darkBg/60 border border-borderCol p-3.5 rounded-xl space-y-1.5 text-xs">
+                    <div class="font-bold text-red-400">⚠️ Hậu quả & Thuật toán xử lý:</div>
+                    <p class="text-slate-400 leading-relaxed">Bị quét bởi thuật toán <strong class="text-slate-200">Google Panda</strong> (đánh giá chất lượng nội dung thấp, lặp từ). Gây suy giảm điểm chất lượng trang và tụt hạng từ khóa.</p>
+                </div>
+                <div class="bg-emerald-950/20 border border-emerald-500/30 p-3.5 rounded-xl space-y-1.5 text-xs">
+                    <div class="font-bold text-emerald-400">✅ Nguyên tắc White-Hat thay thế:</div>
+                    <p class="text-slate-300 leading-relaxed">Sử dụng từ khóa tự nhiên, tập trung vào ngữ nghĩa (LSI Keywords), tối ưu trải nghiệm đọc và cung cấp giá trị thông tin thực tế cho người dùng.</p>
+                </div>
             </div>
         </div>
 
-        <!-- Module 2: Giả Lập Cloaking -->
+        <!-- Module 2: Cloaking -->
         <div class="bg-cardBg border border-borderCol rounded-2xl p-6 space-y-4">
             <div>
-                <h3 class="text-base font-bold text-slate-200">2. Giả Lập Cloaking (Che Giấu Nội Dung)</h3>
-                <p class="text-xs text-slate-400 mt-0.5">Phân tích User-Agent từ HTTP Header để trả về nội dung sạch cho Googlebot nhưng chuyển hướng người dùng sang trang khác.</p>
+                <span class="text-xs font-bold text-red-400 bg-red-500/10 px-2.5 py-1 rounded">Kỹ thuật 02</span>
+                <h3 class="text-lg font-bold text-slate-200 mt-1.5">Cloaking (Che giấu nội dung)</h3>
+                <p class="text-xs text-slate-400 mt-0.5">Hành vi trình bày nội dung hoặc mã nguồn khác nhau cho công cụ tìm kiếm (Googlebot) so với người dùng thực.</p>
             </div>
 
             <div class="grid grid-cols-2 gap-3">
                 <button onclick="simulateCloak('user')" class="bg-darkBg hover:bg-slate-800 border border-borderCol text-slate-300 py-2.5 px-4 rounded-xl text-xs font-semibold transition-all cursor-pointer">
-                    👤 Đóng vai Người dùng (Browser)
+                    👤 Trải nghiệm của Người dùng (Browser)
                 </button>
                 <button onclick="simulateCloak('bot')" class="bg-indigo-600 hover:bg-indigo-700 text-white py-2.5 px-4 rounded-xl text-xs font-semibold transition-all cursor-pointer">
-                    🤖 Đóng vai Googlebot (Crawler)
+                    🤖 Phản hồi khi quét bởi Googlebot
                 </button>
             </div>
 
-            <div id="cloaked-result" class="p-4 bg-darkBg border border-borderCol rounded-xl min-h-[100px] flex flex-col justify-center items-center text-center">
-                <span class="text-slate-500 text-xs italic">👈 Bấm chọn vai trò ở trên để mô phỏng phản hồi từ Server.</span>
+            <div id="cloaked-result" class="p-4 bg-darkBg border border-borderCol rounded-xl min-h-[90px] flex flex-col justify-center items-center text-center">
+                <span class="text-slate-500 text-xs italic">👈 Bấm chọn vai trò để kiểm tra phản hồi từ Server.</span>
             </div>
-            <div class="text-[11px] text-slate-400 bg-indigo-500/5 border border-indigo-500/20 p-3 rounded-lg space-y-1">
-                <strong class="text-indigo-400 font-semibold">Phân tích học thuật:</strong> Cloaking vi phạm Nguyên tắc quản trị trang web. Khi bị phát hiện thủ công (Manual Actions), website sẽ bị xóa hoàn toàn khỏi cơ sở dữ liệu Index.
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+                <div class="bg-darkBg/60 border border-borderCol p-3.5 rounded-xl space-y-1.5 text-xs">
+                    <div class="font-bold text-red-400">⚠️ Hậu quả & Rủi ro pháp lý/uy tín:</div>
+                    <p class="text-slate-400 leading-relaxed">Vi phạm nghiêm trọng nguyên tắc quản trị trang web. Bị phạt <strong class="text-slate-200">Manual Actions (Tác vụ thủ công)</strong>, xóa vĩnh viễn khỏi danh mục Index, làm mất uy tín thương hiệu doanh nghiệp.</p>
+                </div>
+                <div class="bg-emerald-950/20 border border-emerald-500/30 p-3.5 rounded-xl space-y-1.5 text-xs">
+                    <div class="font-bold text-emerald-400">✅ Nguyên tắc White-Hat thay thế:</div>
+                    <p class="text-slate-300 leading-relaxed">Đảm bảo tính nhất quán (Transparency): Nội dung hiển thị cho công cụ tìm kiếm phải hoàn toàn trùng khớp với nội dung người dùng nhìn thấy.</p>
+                </div>
             </div>
         </div>
 
-        <!-- Module 3: Mô Phỏng PBN (Bản chuẩn học thuật, rõ ràng, dễ thuyết trình) -->
+        <!-- Module 3: PBN (Có kèm khung phân tích chi tiết cơ chế hoạt động) -->
         <div class="bg-cardBg border border-borderCol rounded-2xl p-6 space-y-5">
             <div>
-                <h3 class="text-base font-bold text-slate-200">3. Mô Phỏng Mạng Lưới Blog Bẩn (PBN - Private Blog Network)</h3>
-                <p class="text-xs text-slate-400 mt-0.5">Hệ thống site vệ tinh ẩn danh nhằm thao túng PageRank và dòng chảy liên kết độc hại.</p>
+                <span class="text-xs font-bold text-red-400 bg-red-500/10 px-2.5 py-1 rounded">Kỹ thuật 03</span>
+                <h3 class="text-lg font-bold text-slate-200 mt-1.5">PBN - Private Blog Network (Mạng lưới blog vệ tinh ẩn danh)</h3>
+                <p class="text-xs text-slate-400 mt-0.5">Xây dựng hệ thống site vệ tinh nhằm thao túng PageRank và dòng chảy liên kết ngược (backlink).</p>
             </div>
 
-            <!-- Sơ đồ PBN -->
+            <!-- Sơ đồ trực quan PBN -->
             <div class="p-5 bg-darkBg border border-borderCol rounded-xl space-y-4">
-                
                 <div>
                     <div class="text-[11px] font-semibold text-red-400 mb-2 uppercase tracking-wide">Bước 1: Thiết lập hệ thống website vệ tinh</div>
                     <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
                         <div class="bg-cardBg border border-red-500/30 p-3 rounded-xl">
                             <span class="text-[10px] font-bold text-red-400 bg-red-500/10 px-2 py-0.5 rounded">Vệ tinh 01</span>
                             <div class="font-bold text-slate-200 text-xs mt-1.5">Spam Blog</div>
-                            <p class="text-[11px] text-slate-400 mt-0.5">Tự động hóa nội dung và nhồi nhét từ khóa nhân tạo.</p>
+                            <p class="text-[11px] text-slate-400 mt-0.5">Tạo nội dung tự động bằng phần mềm.</p>
                         </div>
                         <div class="bg-cardBg border border-red-500/30 p-3 rounded-xl">
                             <span class="text-[10px] font-bold text-red-400 bg-red-500/10 px-2 py-0.5 rounded">Vệ tinh 02</span>
@@ -100,28 +119,28 @@
                         <div class="bg-cardBg border border-red-500/30 p-3 rounded-xl">
                             <span class="text-[10px] font-bold text-red-400 bg-red-500/10 px-2 py-0.5 rounded">Vệ tinh 03</span>
                             <div class="font-bold text-slate-200 text-xs mt-1.5">Hidden Network</div>
-                            <p class="text-[11px] text-slate-400 mt-0.5">Chèn liên kết ẩn tại phần chân trang (footer) website khác.</p>
+                            <p class="text-[11px] text-slate-400 mt-0.5">Chèn liên kết ẩn ở phần chân trang (footer) website khác.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="text-center text-red-400 font-bold text-sm py-1">
-                    ↓ Đồng loạt trỏ liên kết ngược (backlink) về trang đích ↓
+                    ↓ Đồng loạt trỏ liên kết ngược (backlink) thao túng về trang đích ↓
                 </div>
 
                 <div class="bg-blue-950/40 border border-blue-500/40 p-4 rounded-xl">
-                    <div class="text-[11px] font-semibold text-blue-400 uppercase tracking-wide">Bước 2: Tác động đến Website chính</div>
+                    <div class="text-[11px] font-semibold text-blue-400 uppercase tracking-wide">Bước 2: Hậu quả hệ thống</div>
                     <div class="flex items-center justify-between flex-wrap gap-2 mt-1.5">
                         <div>
                             <div class="font-bold text-blue-200 text-xs">🏛️ Website Chính (Target Site)</div>
-                            <p class="text-[11px] text-slate-300 mt-0.5">Tiếp nhận lượng lớn backlink bất thường từ hệ thống vệ tinh.</p>
+                            <p class="text-[11px] text-slate-300 mt-0.5">Bị phát hiện thao túng backlink diện rộng bởi thuật toán AI.</p>
                         </div>
-                        <span class="bg-red-500/20 text-red-400 border border-red-500/30 text-[10px] font-bold px-2.5 py-1 rounded">Bị thuật toán Google phát hiện và phạt</span>
+                        <span class="bg-red-500/20 text-red-400 border border-red-500/30 text-[10px] font-bold px-2.5 py-1 rounded">Bị Google Penguin & Spam Update phạt nặng</span>
                     </div>
                 </div>
             </div>
 
-            <!-- Giải thích chi tiết theo văn phong học thuật chuẩn báo cáo -->
+            <!-- Khung Phân tích chi tiết cơ chế hoạt động (Yêu cầu thêm) -->
             <div class="bg-darkBg/60 border border-borderCol p-4 rounded-xl space-y-2.5 text-xs text-slate-300">
                 <div class="font-bold text-slate-200 flex items-center gap-1.5">
                     <span>📖</span> Phân tích chi tiết cơ chế hoạt động:
@@ -133,8 +152,15 @@
                 </ul>
             </div>
 
-            <div class="text-[11px] text-slate-400 bg-red-500/5 border border-red-500/20 p-3.5 rounded-lg space-y-1">
-                <strong class="text-red-400 font-semibold">Kết luận kỹ thuật:</strong> PBN là phương thức vi phạm nghiêm trọng chính sách chất lượng của Google, mang lại rủi ro cao khiến website bị loại khỏi kết quả tìm kiếm vĩnh viễn.
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
+                <div class="bg-darkBg/60 border border-borderCol p-3.5 rounded-xl space-y-1.5 text-xs">
+                    <div class="font-bold text-red-400">⚠️ Đánh giá hậu quả thuật toán:</div>
+                    <p class="text-slate-400 leading-relaxed">Xử lý trực tiếp bởi thuật toán <strong class="text-slate-200">Google Penguin</strong> và các bản cập nhật <strong class="text-slate-200">Spam Update</strong> sử dụng AI SpamBrain. Toàn bộ backlink ảo bị vô hiệu hóa, trang web chính bị đánh rớt hạng nghiêm trọng.</p>
+                </div>
+                <div class="bg-emerald-950/20 border border-emerald-500/30 p-3.5 rounded-xl space-y-1.5 text-xs">
+                    <div class="font-bold text-emerald-400">✅ Nguyên tắc White-Hat thay thế:</div>
+                    <p class="text-slate-300 leading-relaxed">Xây dựng liên kết tự nhiên (Link Building) thông qua Guest Posting chất lượng cao, PR báo chí chính thống, tạo nội dung chuyên sâu có giá trị dẫn dắt cộng đồng trích dẫn tự nguyện.</p>
+                </div>
             </div>
         </div>
     </main>
@@ -155,15 +181,15 @@
                     <div class="space-y-1">
                         <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">Server Response: Googlebot Agent</span>
                         <h4 class="font-bold text-emerald-400 text-xs mt-1">Học Viện Công Nghệ Thông Tin Chuẩn SEO</h4>
-                        <p class="text-slate-300 text-[11px]">Nội dung học thuật minh bạch, phân bổ từ khóa tự nhiên phục vụ lập chỉ mục.</p>
+                        <p class="text-slate-300 text-[11px]">Nội dung học thuật minh bạch, phân phối từ khóa tự nhiên phục vụ lập chỉ mục.</p>
                     </div>
                 `;
             } else {
                 container.innerHTML = `
                     <div class="space-y-1">
                         <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-red-500/20 text-red-400 border border-red-500/30">Server Response: Normal User Agent</span>
-                        <h4 class="font-bold text-red-400 text-xs mt-1">🔥 [BLACK-HAT] Sòng bạc trực tuyến - Nhận 500K ngay!</h4>
-                        <p class="text-slate-300 text-[11px]">Nội dung rác, quảng cáo độc hại hiển thị cho người dùng thực trong khi Bot bị qua mặt.</p>
+                        <h4 class="font-bold text-red-400 text-xs mt-1">🔥 [BLACK-HAT] Quảng cáo dịch vụ trái phép / Chuyển hướng độc hại</h4>
+                        <p class="text-slate-300 text-[11px]">Nội dung lừa đảo hiển thị cho người dùng thực trong khi Bot bị qua mặt.</p>
                     </div>
                 `;
             }
